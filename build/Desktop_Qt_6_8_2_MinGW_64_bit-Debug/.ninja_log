@@ -1,10 +1,16 @@
 # ninja log v6
-99	9785	7649105511193879	CMakeFiles/RPSGame.dir/main.cpp.obj	30b29f575f585539
+92	2087	7649313890689882	CMakeFiles/RPSGame.dir/main.cpp.obj	30b29f575f585539
 92	223	7649096131134800	ui_mainwindow.h	25f7a9dc206c0b32
-31	1594	7649179455706566	build.ninja	31593eaa2886c2d2
-37	8074	7649107738805976	CMakeFiles/RPSGame.dir/mainwindow.cpp.obj	eb38765e9907767f
+31	1594	7649316427224879	build.ninja	31593eaa2886c2d2
+96	8678	7649262583602301	CMakeFiles/RPSGame.dir/mainwindow.cpp.obj	eb38765e9907767f
 92	223	7649096131134800	C:/Users/Ramro/OneDrive/Documents/Library/SJSU Semester 2 Material/CMPE-202 Software Systems Engineering/assignments/Assignment 4/RPSGame/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/ui_mainwindow.h	25f7a9dc206c0b32
-100	342	7649108962918279	moc_mainwindow.cpp	f2d4744b1b26055e
-100	342	7649108962918279	C:/Users/Ramro/OneDrive/Documents/Library/SJSU Semester 2 Material/CMPE-202 Software Systems Engineering/assignments/Assignment 4/RPSGame/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/moc_mainwindow.cpp	f2d4744b1b26055e
-343	7591	7649108963162187	CMakeFiles/RPSGame.dir/moc_mainwindow.cpp.obj	52e3f5e5ace43bee
-7593	8205	7649109035676066	RPSGame.exe	1da9fa778f063529
+24	92	7649313890608649	moc_mainwindow.cpp	f2d4744b1b26055e
+24	92	7649313890608649	C:/Users/Ramro/OneDrive/Documents/Library/SJSU Semester 2 Material/CMPE-202 Software Systems Engineering/assignments/Assignment 4/RPSGame/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/moc_mainwindow.cpp	f2d4744b1b26055e
+98	2146	7649313890751421	CMakeFiles/RPSGame.dir/moc_mainwindow.cpp.obj	52e3f5e5ace43bee
+8680	9466	7649262669446740	RPSGame.exe	1da9fa778f063529
+13	94	7649319618072442	moc_mainwindow.cpp	f2d4744b1b26055e
+13	94	7649319618072442	C:/Users/Ramro/OneDrive/Documents/Library/SJSU Semester 2 Material/CMPE-202 Software Systems Engineering/assignments/Assignment 4/RPSGame/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/moc_mainwindow.cpp	f2d4744b1b26055e
+94	2301	7649319618162390	CMakeFiles/RPSGame.dir/main.cpp.obj	30b29f575f585539
+102	2350	7649319618242394	CMakeFiles/RPSGame.dir/moc_mainwindow.cpp.obj	52e3f5e5ace43bee
+98	2974	7649319618202376	CMakeFiles/RPSGame.dir/mainwindow.cpp.obj	eb38765e9907767f
+2974	3482	7649319646957705	RPSGame.exe	1da9fa778f063529
