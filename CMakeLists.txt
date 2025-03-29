@@ -1,3 +1,5 @@
+# File: CMakeLists.txt
+
 cmake_minimum_required(VERSION 3.14)
 project(RPSGame)
 
@@ -18,14 +20,14 @@ set(UI_FILES
     mainwindow.ui
 )
 
-qt6_wrap_ui(WRAP_UI ${UI_FILES})
-qt6_wrap_cpp(WRAP_CPP ${HEADERS})
+# Use qt_wrap_cpp to generate moc files
+qt6_wrap_cpp(MOC_SOURCES ${HEADERS})
 
-add_executable(RPSGame
-    ${SOURCES}
+qt_add_executable(RPSGame
     ${HEADERS}
-    ${WRAP_UI}
-    ${WRAP_CPP}
+    ${SOURCES}
+    ${MOC_SOURCES}
+    ${UI_FILES}
 )
 
 target_link_libraries(RPSGame PRIVATE Qt6::Widgets)

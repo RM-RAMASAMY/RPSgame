@@ -47,13 +47,13 @@ cmake_ninja_workdir = C$:/Users/Ramro/OneDrive/Documents/Library/SJSU$ Semester$
 #############################################
 # Order-only phony target for RPSGame
 
-build cmake_object_order_depends_target_RPSGame: phony || moc_mainwindow.cpp ui_mainwindow.h
+build cmake_object_order_depends_target_RPSGame: phony || moc_mainwindow.cpp
 
 build CMakeFiles/RPSGame.dir/main.cpp.obj: CXX_COMPILER__RPSGame_unscanned_Debug C$:/Users/Ramro/OneDrive/Documents/Library/SJSU$ Semester$ 2$ Material/CMPE-202$ Software$ Systems$ Engineering/assignments/Assignment$ 4/RPSGame/main.cpp || cmake_object_order_depends_target_RPSGame
   DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
   DEP_FILE = CMakeFiles\RPSGame.dir\main.cpp.obj.d
   FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
-  INCLUDES = -isystem C:/Qt/6.8.2/mingw_64/include/QtWidgets -isystem C:/Qt/6.8.2/mingw_64/include -isystem C:/Qt/6.8.2/mingw_64/include/QtCore -isystem C:/Qt/6.8.2/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.8.2/mingw_64/include/QtGui
+  INCLUDES = -isystem C:/Qt/6.8.2/mingw_64/include/QtCore -isystem C:/Qt/6.8.2/mingw_64/include -isystem C:/Qt/6.8.2/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.8.2/mingw_64/include/QtWidgets -isystem C:/Qt/6.8.2/mingw_64/include/QtGui
   OBJECT_DIR = CMakeFiles\RPSGame.dir
   OBJECT_FILE_DIR = CMakeFiles\RPSGame.dir
 
@@ -61,7 +61,7 @@ build CMakeFiles/RPSGame.dir/mainwindow.cpp.obj: CXX_COMPILER__RPSGame_unscanned
   DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
   DEP_FILE = CMakeFiles\RPSGame.dir\mainwindow.cpp.obj.d
   FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
-  INCLUDES = -isystem C:/Qt/6.8.2/mingw_64/include/QtWidgets -isystem C:/Qt/6.8.2/mingw_64/include -isystem C:/Qt/6.8.2/mingw_64/include/QtCore -isystem C:/Qt/6.8.2/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.8.2/mingw_64/include/QtGui
+  INCLUDES = -isystem C:/Qt/6.8.2/mingw_64/include/QtCore -isystem C:/Qt/6.8.2/mingw_64/include -isystem C:/Qt/6.8.2/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.8.2/mingw_64/include/QtWidgets -isystem C:/Qt/6.8.2/mingw_64/include/QtGui
   OBJECT_DIR = CMakeFiles\RPSGame.dir
   OBJECT_FILE_DIR = CMakeFiles\RPSGame.dir
 
@@ -69,7 +69,7 @@ build CMakeFiles/RPSGame.dir/moc_mainwindow.cpp.obj: CXX_COMPILER__RPSGame_unsca
   DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
   DEP_FILE = CMakeFiles\RPSGame.dir\moc_mainwindow.cpp.obj.d
   FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
-  INCLUDES = -isystem C:/Qt/6.8.2/mingw_64/include/QtWidgets -isystem C:/Qt/6.8.2/mingw_64/include -isystem C:/Qt/6.8.2/mingw_64/include/QtCore -isystem C:/Qt/6.8.2/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.8.2/mingw_64/include/QtGui
+  INCLUDES = -isystem C:/Qt/6.8.2/mingw_64/include/QtCore -isystem C:/Qt/6.8.2/mingw_64/include -isystem C:/Qt/6.8.2/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.8.2/mingw_64/include/QtWidgets -isystem C:/Qt/6.8.2/mingw_64/include/QtGui
   OBJECT_DIR = CMakeFiles\RPSGame.dir
   OBJECT_FILE_DIR = CMakeFiles\RPSGame.dir
 
@@ -114,15 +114,6 @@ build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
   restat = 1
 
 build rebuild_cache: phony CMakeFiles/rebuild_cache.util
-
-
-#############################################
-# Custom command for ui_mainwindow.h
-
-build ui_mainwindow.h | ${cmake_ninja_workdir}ui_mainwindow.h: CUSTOM_COMMAND C$:/Users/Ramro/OneDrive/Documents/Library/SJSU$ Semester$ 2$ Material/CMPE-202$ Software$ Systems$ Engineering/assignments/Assignment$ 4/RPSGame/mainwindow.ui C$:/Qt/6.8.2/mingw_64/bin/uic.exe
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Ramro\OneDrive\Documents\Library\SJSU Semester 2 Material\CMPE-202 Software Systems Engineering\assignments\Assignment 4\RPSGame\build\Desktop_Qt_6_8_2_MinGW_64_bit-Debug" && C:\Qt\6.8.2\mingw_64\bin\uic.exe -o "C:/Users/Ramro/OneDrive/Documents/Library/SJSU Semester 2 Material/CMPE-202 Software Systems Engineering/assignments/Assignment 4/RPSGame/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/ui_mainwindow.h" "C:/Users/Ramro/OneDrive/Documents/Library/SJSU Semester 2 Material/CMPE-202 Software Systems Engineering/assignments/Assignment 4/RPSGame/mainwindow.ui""
-  DESC = Generating ui_mainwindow.h
-  restat = 1
 
 
 #############################################
